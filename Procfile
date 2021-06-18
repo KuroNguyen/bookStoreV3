@@ -1,1 +1,1 @@
-web: java -jar build/libs/bookStoreV3-0.0.1-SNAPSHOT.jar
+web: java -jar -Dserver.port=80 build/libs/bookStoreV3-0.0.1-SNAPSHOT.jar
